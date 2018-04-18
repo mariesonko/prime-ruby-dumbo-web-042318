@@ -6,7 +6,6 @@ def prime?(number)
     number_range.each do |num|
       if number % num == 0
         return true
-        break
       end
     end
   end
