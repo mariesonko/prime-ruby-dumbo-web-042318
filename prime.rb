@@ -1,6 +1,15 @@
 def prime?(number)
-  (2..number).each do |divisor|
-  return true   if num % divisor == 0
+  number_range = (2..(number-1)).to_a
+  check = true 
+  if number < 2
+    check = false 
+  else 
+    number_range.each do |num|
+      if number % num == 0 
+        check false 
+        break 
+      end 
+    end
   end
-  false
-  end
+  puts check 
+end 
