@@ -1,6 +1,6 @@
 def prime?(number)
   (2..number).each do |divisor|
-  return false   if num % divisor == 0
+  return true   if num % divisor == 0
   end
-  true
+  false
   end
