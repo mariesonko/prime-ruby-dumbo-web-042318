@@ -11,5 +11,5 @@ def prime?(number)
       end
     end
   end
-  puts check
+  return check
 end
